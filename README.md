@@ -59,7 +59,7 @@ Configure the API to handle to the following routes:
 | ------ | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | POST   | /api/posts     | Creates a post using the information sent inside the `request body`.                                                                                                        |
 | GET    | /api/posts     | Returns an array of all the post objects contained in the database.                                                                                                         |
-| GET    | /api/posts/:id | Returns the post object with the specified id.                                                                                                                              |
+| GET    | d              | Returns the post object with the specified id. /api/posts/:i                                                                                                                |
 | DELETE | /api/posts/:id | Removes the post with the specified id and returns the **deleted post object**. You may need to make additional calls to the database in order to satisfy this requirement. |
 | PUT    | /api/posts/:id | Updates the post with the specified `id` using data from the `request body`. Returns the modified document, **NOT the original**.                                           |
 
